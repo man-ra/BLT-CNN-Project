@@ -1,0 +1,627 @@
+PS C:\Users\manta\abr> mkdir BLT-CNN-Project/src/__init__.py
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02-03-2026     21:05                __init__.py
+
+
+PS C:\Users\manta\abr> cd BLT-CNN-Project/src/__init__.py    
+PS C:\Users\manta\abr\BLT-CNN-Project\src\__init__.py> code
+PS C:\Users\manta\abr\BLT-CNN-Project\src\__init__.py> code __init__.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\__init__.py> cd..
+PS C:\Users\manta\abr\BLT-CNN-Project\src> cd..
+PS C:\Users\manta\abr\BLT-CNN-Project> code requirements.txt
+PS C:\Users\manta\abr\BLT-CNN-Project> cd src          
+PS C:\Users\manta\abr\BLT-CNN-Project\src> mkdir data
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02-03-2026     21:08                data
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project\src> cd data
+PS C:\Users\manta\abr\BLT-CNN-Project\src\data> code __init__.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\data> code dataset.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\data> code encoding.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\data> code entropy.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\data> cd..
+PS C:\Users\manta\abr\BLT-CNN-Project\src> mkdir models
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02-03-2026     21:13                models
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project\src> cd models
+PS C:\Users\manta\abr\BLT-CNN-Project\src\models> code __init__.py 
+PS C:\Users\manta\abr\BLT-CNN-Project\src\models> code blt_patcher.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\models> code cnn1d.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\models> code transformer.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\models> code blt_cnn.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\models> cd..
+PS C:\Users\manta\abr\BLT-CNN-Project\src> mkdir training
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02-03-2026     21:19                training
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project\src> cd traning
+cd : Cannot find path 'C:\Users\manta\abr\BLT-CNN-Project\src\traning' because it does not exist.
+At line:1 char:1
++ cd traning
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\manta\...ect\src\traning:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS C:\Users\manta\abr\BLT-CNN-Project\src> cd training
+PS C:\Users\manta\abr\BLT-CNN-Project\src\training> code __init__.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\training> code losses.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\training> code trainer.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\training> code metrics.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\training> code train.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\training> code evaluate.py
+PS C:\Users\manta\abr\BLT-CNN-Project\src\training> 
+
+
+S C:\Users\manta\abr\BLT-CNN-Project> cd src
+PS C:\Users\manta\abr\BLT-CNN-Project\src> dir data
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project\src\data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        02-03-2026     21:32           3284 dataset.py
+-a----        02-03-2026     21:31           1127 encoding.py
+-a----        02-03-2026     21:31           2417 entropy.py
+-a----        02-03-2026     21:32            368 __init__.py
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project\src> cd C:\Users\manta\abr\BLT-CNN-Project
+PS C:\Users\manta\abr\BLT-CNN-Project> mkdir scripts
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02-03-2026     21:40                scripts
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project> mkdir models
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02-03-2026     21:40                models
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project> mkdir results
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02-03-2026     21:40                results
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project> cd scripts
+PS C:\Users\manta\abr\BLT-CNN-Project\scripts> code train.py
+PS C:\Users\manta\abr\BLT-CNN-Project\scripts> 
+PS C:\Users\manta\abr> cd BLT-CNN-Project/scripts
+PS C:\Users\manta\abr\BLT-CNN-Project\scripts> code evaluate.py
+PS C:\Users\manta\abr\BLT-CNN-Project\scripts> cd C:\Users\manta\abr\BLT-CNN-Project
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/train.py
+============================================================
+BLT-CNN Training
+============================================================
+
+[1] Generating data...
+    Train: (400, 100)  Test: (100, 100)
+
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/train.py
+============================================================
+BLT-CNN Training
+============================================================
+
+[1] Generating data...
+    Train: (400, 100)  Test: (100, 100)
+
+[2] Device: cpu
+
+[3] Building model...
+    Parameters: 944,387
+
+[4] Training...
+    Epoch 1/10 | Loss: 0.3723 | Acc: 0.8600 | F1: 0.9744
+    Epoch 2/10 | Loss: 0.2530 | Acc: 0.8600 | F1: 0.9744
+    Epoch 3/10 | Loss: 0.2254 | Acc: 0.8600 | F1: 0.9744
+    Epoch 4/10 | Loss: 0.2298 | Acc: 0.8600 | F1: 0.9744
+    Epoch 5/10 | Loss: 0.2425 | Acc: 0.8600 | F1: 0.9744
+    Epoch 6/10 | Loss: 0.2372 | Acc: 0.8600 | F1: 0.9744
+    Epoch 7/10 | Loss: 0.2329 | Acc: 0.8600 | F1: 0.9744
+    Epoch 8/10 | Loss: 0.2331 | Acc: 0.8600 | F1: 0.9744
+    Epoch 9/10 | Loss: 0.2361 | Acc: 0.8600 | F1: 0.9744
+    Epoch 10/10 | Loss: 0.2352 | Acc: 0.8600 | F1: 0.9744
+
+[5] Saving model...
+    Saved to models/blt_cnn_final.pth
+
+============================================================
+Training Complete!
+============================================================
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/evaluate.py
+
+============================================================
+BLT-CNN Evaluation
+============================================================
+
+[1] Device: cpu
+
+[2] Loading model...
+    Loaded from models/blt_cnn_final.pth
+
+[3] Loading test data...
+    Test samples: 100
+
+[4] Evaluating...
+
+============================================================
+RESULTS
+============================================================
+  Accuracy:  0.8800
+  Precision: 0.9601
+  Recall:    1.0000
+  F1:        0.9796
+  AUC:       0.5496
+
+Per-Class:
+  Methicillin     | P: 0.9600 | R: 1.0000 | F1: 0.9796
+  Ciprofloxacin   | P: 0.9700 | R: 1.0000 | F1: 0.9848
+  Vancomycin      | P: 0.9500 | R: 1.0000 | F1: 0.9744
+
+[5] Saving results...
+    Saved to results/evaluation_results.json
+
+============================================================
+Evaluation Complete!
+============================================================
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+
+============================================================
+BLT-CNN RESULTS
+============================================================
+  Accuracy:  0.88 (88%)
+  Precision: 0.96
+  Recall:    1.00
+  F1:        0.97
+  AUC:       0.54  ← needs improvement
+
+Per-Class:
+  Methicillin     F1: 0.9796  ✅
+  Ciprofloxacin   F1: 0.9848  ✅
+  Vancomycin      F1: 0.9744  ✅
+============================================================
+
+✅ Environment setup
+✅ Data pipeline
+✅ BLT entropy patching
+✅ CNN + Transformer
+✅ Hybrid fusion
+✅ Training complete
+✅ Evaluation complete
+✅ Results saved
+
+Next → Real genome data
+
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project> cd scripts
+PS C:\Users\manta\abr\BLT-CNN-Project\scripts> code download_data.py
+PS C:\Users\manta\abr\BLT-CNN-Project\scripts> cd C:\Users\manta\abr\BLT-CNN-Project
+PS C:\Users\manta\abr\BLT-CNN-Project> mkdir data\raw
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project\data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02-03-2026     21:50                raw
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project> mkdir data\processed
+
+
+    Directory: C:\Users\manta\abr\BLT-CNN-Project\data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02-03-2026     21:51                processed
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/download_data.py
+============================================================
+Downloading S. aureus Genomes from NCBI
+============================================================
+
+[1] Searching NCBI...
+    Found 0 genomes
+
+[2] Downloading...
+
+[3] Done!
+    Saved to: data/raw/
+    Total files: 0
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/download_data.py
+============================================================
+Downloading S. aureus Genomes from NCBI
+============================================================
+
+[1] Searching NCBI...
+    Found 50 genomes
+
+[2] Downloading...
+    [1/50] Downloaded genome_1.fasta
+    [2/50] Downloaded genome_2.fasta
+    [3/50] Downloaded genome_3.fasta
+    [4/50] Downloaded genome_4.fasta
+    [5/50] Downloaded genome_5.fasta
+    [6/50] Downloaded genome_6.fasta
+    [7/50] Downloaded genome_7.fasta
+    [8/50] Downloaded genome_8.fasta
+    [9/50] Downloaded genome_9.fasta
+    [10/50] Downloaded genome_10.fasta
+    [11/50] Downloaded genome_11.fasta
+    [12/50] Downloaded genome_12.fasta
+    [13/50] Downloaded genome_13.fasta
+    [14/50] Downloaded genome_14.fasta
+    [15/50] Downloaded genome_15.fasta
+    [16/50] Downloaded genome_16.fasta
+    [17/50] Downloaded genome_17.fasta
+    [18/50] Downloaded genome_18.fasta
+    [19/50] Downloaded genome_19.fasta
+    [20/50] Downloaded genome_20.fasta
+    [21/50] Downloaded genome_21.fasta
+    [22/50] Downloaded genome_22.fasta
+    [23/50] Downloaded genome_23.fasta
+    [24/50] Downloaded genome_24.fasta
+    [25/50] Downloaded genome_25.fasta
+    [26/50] Downloaded genome_26.fasta
+    [27/50] Downloaded genome_27.fasta
+    [28/50] Downloaded genome_28.fasta
+    [29/50] Downloaded genome_29.fasta
+    [30/50] Downloaded genome_30.fasta
+    [31/50] Downloaded genome_31.fasta
+    [32/50] Downloaded genome_32.fasta
+    [33/50] Downloaded genome_33.fasta
+    [34/50] Downloaded genome_34.fasta
+    [35/50] Downloaded genome_35.fasta
+    [36/50] Downloaded genome_36.fasta
+    [37/50] Downloaded genome_37.fasta
+    [38/50] Downloaded genome_38.fasta
+    [39/50] Downloaded genome_39.fasta
+    [40/50] Downloaded genome_40.fasta
+    [41/50] Downloaded genome_41.fasta
+    [42/50] Downloaded genome_42.fasta
+    [43/50] Downloaded genome_43.fasta
+    [44/50] Downloaded genome_44.fasta
+    [45/50] Downloaded genome_45.fasta
+    [46/50] Downloaded genome_46.fasta
+    [47/50] Downloaded genome_47.fasta
+    [48/50] Downloaded genome_48.fasta
+    [49/50] Downloaded genome_49.fasta
+    [50/50] Downloaded genome_50.fasta
+
+[3] Done!
+    Downloaded: 50 genomes
+    Saved to: data/raw/
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project> cd scripts 
+PS C:\Users\manta\abr\BLT-CNN-Project\scripts> code preprocess_data.py
+PS C:\Users\manta\abr\BLT-CNN-Project\scripts> python scripts/preprocess_data.py
+C:\Program Files\Python313\python.exe: can't open file 'C:\\Users\\manta\\abr\\BLT-CNN-Project\\scripts\\scripts\\preprocess_data.py': [Errno 2] No such file or directory
+PS C:\Users\manta\abr\BLT-CNN-Project\scripts> cd..
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/preprocess_data.py
+
+
+https://www.ncbi.nlm.nih.gov/datasets/genome/?taxon=1280&assembly_level=3:3&release_year=2026:2026
+assembly-->> complete
+
+cd C:\Users\manta\abr\BLT-CNN-Project\data\raw
+
+# Rename all .fna to .fasta
+Get-ChildItem -Filter "*.fna" | Rename-Item -NewName { $_.Name -replace '\.fna$', '.fasta' }
+
+# Check
+dir
+cd C:\Users\manta\abr\BLT-CNN-Project
+python scripts/preprocess_data.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS C:\Users\manta\abr\BLT-CNN-Project> python -c "
+>> from Bio import SeqIO
+>> fpath = 'data/card/card-data.tar/nucleotide_fasta_protein_homolog_model.fasta'
+>> for i, record in enumerate(SeqIO.parse(fpath, 'fasta')):
+>>     print(record.description)
+>>     if i >= 5:
+>>         break
+>> "
+>> 
+gb|GQ343019.1|+|132-1023|ARO:3002999|CblA-1 [mixed culture bacterium AX_gF3SD01_15]
+gb|HQ845196.1|+|0-861|ARO:3001109|SHV-52 [Klebsiella pneumoniae]
+gb|AF028812.1|+|392-887|ARO:3002867|dfrF [Enterococcus faecalis]
+gb|JX017365.1|+|244-1120|ARO:3001989|CTX-M-130 [Escherichia coli]
+gb|JN967644.1|+|0-813|ARO:3002356|NDM-6 [Escherichia coli]
+gb|LC004922.1|+|0-1146|ARO:3001855|ACT-35 [Enterobacter cloacae]
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project>
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project>
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+PS C:\Users\manta\abr\BLT-CNN-Project> python -c "
+>> with open('data/card/card-data.tar/aro_index.tsv', encoding='utf-8') as f:
+>>     for i, line in enumerate(f):
+>>         print(line.strip())
+>>         if i >= 5:
+>>             break
+>> "
+>> 
+ARO Accession   CVTERM ID       Model Sequence ID       Model ID        Model Name      ARO Name        Protein Accession       DNA Accession   AMR Gene Family Drug Class      Resistance Mechanism     CARD Short Name
+ARO:3005099     43314   6143    3831    23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A)  23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A)  AAB60941.1      AF002716.1       Erm 23S ribosomal RNA methyltransferase lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic    antibiotic target alteration    Spyo_ErmA_MLSb
+ARO:3002523     38923   8144    1781    AAC(2')-Ia      AAC(2')-Ia      AAA03550.1      L06156.2        AAC(2') aminoglycoside antibiotic       antibiotic inactivation AAC(2')-Ia
+ARO:3002524     38924   85      746     AAC(2')-Ib      AAC(2')-Ib      AAC44793.1      U41471.1        AAC(2') aminoglycoside antibiotic       antibiotic inactivation AAC(2')-Ib
+ARO:3002525     38925   4719    1246    AAC(2')-Ic      AAC(2')-Ic      CCP42991.1      AL123456.3      AAC(2') aminoglycoside antibiotic       antibiotic inactivation AAC(2')-Ic
+ARO:3002526     38926   228     1415    AAC(2')-Id      AAC(2')-Id      AAB41701.1      U72743.1        AAC(2') aminoglycoside antibiotic       antibiotic inactivation AAC(2')-Id
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/process_card.py
+============================================================
+Processing CARD Database
+============================================================
+
+[1] Loading ARO index...
+    Columns: ['ARO Accession', 'CVTERM ID', 'Model Sequence ID', 'Model ID', 'Model Name', 'ARO Name', 'Protein Accession', 'DNA Accession', 'AMR Gene Family', 'Drug Class', 'Resistance Mechanism', 'CARD Short Name']
+    Total entries: 5227
+    ARO entries loaded: 5222
+
+[2] Loading CARD FASTA files...
+
+    Loading: nucleotide_fasta_protein_homolog_model.fasta
+    Loaded:  3843
+    Skipped: 997
+
+    Loading: nucleotide_fasta_protein_variant_model.fasta
+    Loaded:  78
+    Skipped: 111
+
+    Loading: nucleotide_fasta_rRNA_gene_variant_model.fasta
+    Loaded:  84
+    Skipped: 2
+
+    Total sequences: 4005
+
+[3] Encoding 4005 sequences (length=300)...
+    Encoded shape: (4005, 300)
+
+[4] Dataset Summary:
+    Total genes:       4005
+    Methicillin:       3612 resistant genes
+    Ciprofloxacin:     283 resistant genes
+    Vancomycin:        171 resistant genes
+
+[5] Saving...
+    Saved card_sequences.npy → shape (4005, 300)
+    Saved card_labels.npy    → shape (4005, 3)
+
+============================================================
+CARD Processing Complete!
+============================================================
+
+Next: Run scripts/train_card.py
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/process_card.py
+============================================================
+Processing CARD Database
+============================================================
+
+[1] Loading ARO index...
+    Columns: ['ARO Accession', 'CVTERM ID', 'Model Sequence ID', 'Model ID', 'Model Name', 'ARO Name', 'Protein Accession', 'DNA Accession', 'AMR Gene Family', 'Drug Class', 'Resistance Mechanism', 'CARD Short Name']
+    Total entries: 5227
+    ARO entries loaded: 5222
+
+[2] Loading CARD FASTA files...
+
+    Loading: nucleotide_fasta_protein_homolog_model.fasta
+    Loaded:  3843
+    Skipped: 997
+
+    Loading: nucleotide_fasta_protein_variant_model.fasta
+    Loaded:  78
+    Skipped: 111
+
+    Loading: nucleotide_fasta_rRNA_gene_variant_model.fasta
+    Loaded:  84
+    Skipped: 2
+
+    Total sequences: 4005
+
+[3] Encoding 4005 sequences (length=300)...
+    Encoded shape: (4005, 300)
+
+[4] Dataset Summary:
+    Total genes:       4005
+    Methicillin:       3612 resistant genes
+    Ciprofloxacin:     283 resistant genes
+    Vancomycin:        171 resistant genes
+
+[5] Saving...
+    Saved card_sequences.npy → shape (4005, 300)
+    Saved card_labels.npy    → shape (4005, 3)
+
+============================================================
+CARD Processing Complete!
+============================================================
+
+Next: Run scripts/train_card.py
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/train.py
+============================================================
+BLT-CNN Training
+============================================================
+
+[1] Generating data...
+    Train: (400, 100)  Test: (100, 100)
+
+[2] Device: cpu
+
+[3] Building model...
+    Parameters: 944,387
+
+[4] Training...
+    Epoch 1/10 | Loss: 0.3583 | Acc: 0.8600 | F1: 0.9744
+    Epoch 2/10 | Loss: 0.2432 | Acc: 0.8600 | F1: 0.9744
+    Epoch 3/10 | Loss: 0.2457 | Acc: 0.8600 | F1: 0.9744
+    Epoch 4/10 | Loss: 0.2359 | Acc: 0.8600 | F1: 0.9744
+    Epoch 5/10 | Loss: 0.2327 | Acc: 0.8600 | F1: 0.9744
+    Epoch 6/10 | Loss: 0.2334 | Acc: 0.8600 | F1: 0.9744
+    Epoch 7/10 | Loss: 0.2284 | Acc: 0.8600 | F1: 0.9744
+    Epoch 8/10 | Loss: 0.2322 | Acc: 0.8600 | F1: 0.9744
+    Epoch 9/10 | Loss: 0.2266 | Acc: 0.8600 | F1: 0.9744
+    Epoch 10/10 | Loss: 0.2289 | Acc: 0.8600 | F1: 0.9744
+
+[5] Saving model...
+    Saved to models/blt_cnn_final.pth
+
+============================================================
+Training Complete!
+============================================================
+PS C:\Users\manta\abr\BLT-CNN-Project> 
+
+PS C:\Users\manta\abr\BLT-CNN-Project> python scripts/train_card.py
+============================================================
+BLT-CNN Training on CARD Database
+============================================================
+
+[1] Loading CARD data...
+    Sequences: (4005, 300)
+    Labels:    (4005, 3)
+    Methicillin:   3612 resistant
+    Ciprofloxacin: 283 resistant
+    Vancomycin:    171 resistant
+
+[2] Splitting data (70/15/15)...
+    Train: (2803, 300)
+    Val:   (601, 300)
+    Test:  (601, 300)
+
+[3] Device: cpu
+
+[4] Building model...
+    Parameters: 944,387
+
+[5] Training...
+    Epoch 01/20 | Loss: 0.2886 | Val Acc: 0.8852 | Val F1: 0.8413 | Val AUC: 0.7641
+             -> Saved best model!
+    Epoch 02/20 | Loss: 0.2072 | Val Acc: 0.8802 | Val F1: 0.8508 | Val AUC: 0.8422
+             -> Saved best model!
+    Epoch 03/20 | Loss: 0.1561 | Val Acc: 0.9085 | Val F1: 0.8976 | Val AUC: 0.9710
+             -> Saved best model!
+    Epoch 04/20 | Loss: 0.1289 | Val Acc: 0.9052 | Val F1: 0.9122 | Val AUC: 0.9793
+             -> Saved best model!
+    Epoch 05/20 | Loss: 0.1094 | Val Acc: 0.9018 | Val F1: 0.8985 | Val AUC: 0.9751
+    Epoch 06/20 | Loss: 0.1065 | Val Acc: 0.8935 | Val F1: 0.8975 | Val AUC: 0.9748
+    Epoch 07/20 | Loss: 0.0965 | Val Acc: 0.9101 | Val F1: 0.9106 | Val AUC: 0.9665
+    Epoch 08/20 | Loss: 0.0939 | Val Acc: 0.8952 | Val F1: 0.8790 | Val AUC: 0.9787
+    Epoch 09/20 | Loss: 0.0875 | Val Acc: 0.9285 | Val F1: 0.9329 | Val AUC: 0.9839
+             -> Saved best model!
+    Epoch 10/20 | Loss: 0.0710 | Val Acc: 0.9301 | Val F1: 0.9303 | Val AUC: 0.9850
+    Epoch 11/20 | Loss: 0.0690 | Val Acc: 0.9201 | Val F1: 0.9237 | Val AUC: 0.9835
+    Epoch 12/20 | Loss: 0.0820 | Val Acc: 0.9218 | Val F1: 0.9224 | Val AUC: 0.9849
+    Epoch 13/20 | Loss: 0.0681 | Val Acc: 0.9334 | Val F1: 0.9290 | Val AUC: 0.9847
+    Epoch 14/20 | Loss: 0.0591 | Val Acc: 0.9318 | Val F1: 0.9310 | Val AUC: 0.9864
+    Epoch 15/20 | Loss: 0.0517 | Val Acc: 0.9318 | Val F1: 0.9299 | Val AUC: 0.9843
+    Epoch 16/20 | Loss: 0.0585 | Val Acc: 0.9351 | Val F1: 0.9317 | Val AUC: 0.9858
+    Epoch 17/20 | Loss: 0.0504 | Val Acc: 0.9334 | Val F1: 0.9366 | Val AUC: 0.9846
+             -> Saved best model!
+    Epoch 18/20 | Loss: 0.0550 | Val Acc: 0.9368 | Val F1: 0.9417 | Val AUC: 0.9815
+             -> Saved best model!
+    Epoch 19/20 | Loss: 0.0453 | Val Acc: 0.9351 | Val F1: 0.9384 | Val AUC: 0.9870
+    Epoch 20/20 | Loss: 0.0463 | Val Acc: 0.9351 | Val F1: 0.9361 | Val AUC: 0.9855
+
+[6] Final Test Evaluation...
+
+============================================================
+FINAL RESULTS ON CARD DATABASE
+============================================================
+  Accuracy:  0.9334
+  Precision: 0.9557
+  Recall:    0.9335
+  F1:        0.9418
+  AUC:       0.9855
+
+Per-Class:
+  Methicillin     | P: 0.9761 | R: 0.9852 | F1: 0.9806
+  Ciprofloxacin   | P: 0.8857 | R: 0.5849 | F1: 0.7045
+  Vancomycin      | P: 0.6500 | R: 0.5417 | F1: 0.5909
+
+[7] Saving results...
+    Saved to results/card_results.json
+
+============================================================
+Training on CARD Data Complete!
+============================================================
+
+PS C:\Users\manta\abr\BLT-CNN-Project> python -m streamlit run app.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.238.148.224:8501
+
+
+pip install fastapi uvicorn
+python app_api.py
+open html file in browser

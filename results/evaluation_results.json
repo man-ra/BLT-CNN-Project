@@ -1,0 +1,26 @@
+{
+  "overall": {
+    "accuracy": 0.88,
+    "precision": 0.9600694444444444,
+    "recall": 1.0,
+    "f1": 0.9796102830910662,
+    "auc": 0.5496238425925926
+  },
+  "per_class": {
+    "Methicillin": {
+      "precision": 0.96,
+      "recall": 1.0,
+      "f1": 0.9795918367346939
+    },
+    "Ciprofloxacin": {
+      "precision": 0.97,
+      "recall": 1.0,
+      "f1": 0.9847715736040609
+    },
+    "Vancomycin": {
+      "precision": 0.95,
+      "recall": 1.0,
+      "f1": 0.9743589743589743
+    }
+  }
+}
