@@ -1,20 +1,20 @@
-# BLT-CNN: Hybrid Fusion Model for Antibiotic Resistance Prediction
+# BLT-CNN: Antibiotic Resistance Prediction
 
-This project is a research-style implementation of a **hybrid fusion model** to predict antibiotic resistance from pathogen DNA.
+Hybrid deep learning architecture combining BLT Entropy Patching, 
+1D CNN, and Transformer Encoder for antibiotic resistance prediction 
+from genomic sequences.
 
-## What is implemented (core idea)
+## Results
+- Accuracy: 93.34%
+- AUC: 98.55%
+- F1: 94.18%
+- Dataset: CARD Database (4,005 sequences)
 
-- **Entropy-based patching** (BLT-inspired): adapt patch size based on Shannon entropy  
-- **1D CNN**: learns local DNA motifs  
-- **Transformer Encoder**: learns long-range/global dependencies  
-- **Fusion Head**: combines CNN+Transformer features with BLT patch features  
-- **Multi-label output**: predicts resistance for multiple antibiotics
+## Architecture
+- BLT Entropy Patcher (adaptive patching)
+- 1D CNN (local motif detection)
+- Transformer Encoder (global context)
 
-## How to run (demo with synthetic data)
-
-From the project root:
-
-```powershell
+## Run
 pip install -r requirements.txt
-python scripts/train.py
-python scripts/evaluate.py
+python app_api.py
