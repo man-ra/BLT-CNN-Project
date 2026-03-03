@@ -3,3 +3,5 @@ data/card/
 __pycache__/
 *.pyc
 .env
+*.tar
+*.fasta
